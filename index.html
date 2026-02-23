@@ -35,9 +35,6 @@
                     <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile">我的作品</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="ai-tab" data-bs-toggle="tab" href="#ai">簡易聊天</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" id="photo-tab" data-bs-toggle="tab" href="#photo">一些照片</a>
                 </li>
                 <li class="nav-item">
@@ -134,64 +131,66 @@
         </div>
 
         <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-            <h2><strong>課堂作品</strong></h2>
+            <h2><strong>個人作品</strong></h2>
+            <div class="row gy-4">
+                <div class="display display1">
+                    <div>
+                        <img src="picture/114-1 臺灣現存大專院校未來退場機率預測.png" alt="114-1 臺灣現存大專院校未來退場機率預測" loading="lazy">
+                        <h2><strong>臺灣現存大專院校未來退場機率預測</strong></h2>
+                        <br><br><br>
+                        <p>基於 2017–2022 年臺灣私立大專院校的招生與財務資料，建構隨機森林分類模型， 評估學校是否具有退場風險。</p>
+                        <a href="https://taitaiwu.github.io/python/Introduction_to_Artificial_Intelligence&Mechine_Learning/final_project/" target="_blank"></a>
+                    </div>
+
+                    <div>
+                        <img src="picture/113-1網站設計進階.png" alt="113-1 網頁設計進階" loading="lazy">
+                        <h1>金門大學 教室預約系統</h1>
+                        <p>
+                            113-1 網站設計進階之課堂作品，包含期中專案和每一次平時作業。課程內容主要為網站後端技術(Deno, FastAPI)<br>
+                            <strong>授課老師 : 陳鍾誠</strong>
+                        </p>
+                        <a href="https://github.com/taitaiwu/_ws?tab=readme-ov-file"></a>
+                    </div>
+
+                    <div>
+                        <img src="picture/112-2網頁設計.png" alt="112-2網頁設計" loading="lazy">
+                        <h1>網頁設計課程作業</h1>
+                        <br>
+                        <p>
+                            112-2 網頁設計之課堂作品，包含期中專案和每一次平時作業。課程內容主要為網頁前端設計(Html, CSS, Javascript)<br>
+                            <strong>授課老師 : 陳鍾誠</strong>
+                        </p>
+                        <a href="https://taitaiwu.github.io/wp/" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <h2><strong>課堂筆記</strong></h2>
+            <p>上課或自學時所紀錄之筆記</p>
             <div class="row gy-4">
                 <div class="display display1">
                     <div>
                         <img src="picture/112-2 資訊網路.png" alt="112-2 資訊網路" loading="lazy">
                         <h1>112-2 資訊網路</h1>
-                        <br>
-                        <p>
-                            上課的課堂筆記和課後整理<br>
-                            <strong>授課老師 : 柯志亨</strong>
-                        </p>
-                        <a href="https://docs.google.com/document/d/1IPXnFyZRJDB2dhhgwWyxzWLp9zBdMIzLt7Vng7Zs7MQ/edit?usp=sharing"></a>
+                        <a href="https://docs.google.com/document/d/1IPXnFyZRJDB2dhhgwWyxzWLp9zBdMIzLt7Vng7Zs7MQ/edit?usp=sharing" target="_blank"></a>
                     </div>
 
                     <div>
-                        <img src="picture/112-2網頁設計.png" alt="112-2網頁設計" loading="lazy">
-                        <h1>112-2 網頁設計</h1>
-                        <br>
-                        <p>
-                            課堂作品，包含期中專案和每一次平時作業。課程內容主要為網頁前端設計(Html, CSS, Javascript)<br>
-                            <strong>授課老師 : 陳鍾誠</strong>
-                        </p>
-                        <a href="https://taitaiwu.github.io/wp/" target="_blank"></a>
+                        <img src="picture/114-1資料結構.png" alt="114-1 資料結構" loading="lazy">
+                        <h1>114-1 資料結構</h1>
+                        <a href="https://hackmd.io/@tai0123/categories/ds#" target="_blank"></a>
                     </div>
 
                     <div>
-                        <img src="picture/113-1網站設計進階.png" alt="113-1 網頁設計進階" loading="lazy">
-                        <h1>113-1 網站設計進階</h1>
-                        <p>
-                            課堂作品，包含期中專案和每一次平時作業。課程內容主要為網站後端技術(Deno, FastAPI)<br>
-                            <strong>授課老師 : 陳鍾誠</strong>
-                        </p>
-                        <a href="https://github.com/taitaiwu/_ws?tab=readme-ov-file"></a>
+                        <img src="picture/114-1 離散數學.png" alt="114-1 離散數學" loading="lazy">
+                        <h1>114-1 離散數學</h1>
+                        <a href="https://hackmd.io/@rikaisgay/categories/dm" target="_blank"></a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="tab-pane fade" id="ai" role="tabpanel" aria-labelledby="ai-tab">
-            <h2><strong>一個不太聰明的聊天機器人</strong></h2>
-            <p>目前只有簡易的聊天功能(應該無法記憶)，可接受各種語言，輸出可能會以繁體中文、簡體中文或英文等語言回答</p>
-            <div class="mb-3">
-                <div class="chat-box" id="chatBox"></div>
-                <div class="mt-3">
-                    <textarea id="question" class="form-control" rows="3" placeholder="輸入訊息(按Enter送出;Shift+Enter換行)"></textarea>
-                    <button class="btn btn-primary w-100 mt-2" onclick="chat()">送出問題</button>
-                    <hr>
-                    <figure>
-                        <blockquote class="blockquote">
-                            <p>※ 若Groq不會說話了，可能是額度已用盡。</p>
-                        </blockquote>
-                        <figcaption class="blockquote-footer">
-                            <cite title="Groq's Website Link"><a href="https://chat.groq.com/" target="_blank">Groq</a></cite> Technical Support
-                        </figcaption>
-                      </figure>
-                </div>
-            </div>
-        </div>
+        
 
         <div class="tab-pane fade" id="photo" role="tabpanel" aria-labelledby="photo-tab">
             <h2><strong>一些走過的地方...</strong></h2>
@@ -300,6 +299,13 @@
                 </div>
 
                 <div class="content-card">
+                    <img src="picture/linkedin.png" alt="LinkedIn">
+                    <h1>Linkedin</h1>
+                    <p><br>Jiatai Wu</p>
+                    <a href="https://www.linkedin.com/in/jiatai-wu-a36935358" target="_blank"></a>
+                </div>
+
+                <div class="content-card">
                     <img src="picture/leetcode.png">
                     <h1>LeetCode</h1>
                     <p><br>Jiatai</p>
@@ -354,7 +360,7 @@
     <footer class="bg-dark text-white text-center py-3">
         <div class="container">
             <p>
-                © 2025 Jiatai Wu<br>
+                © 2025~2026 Jiatai Wu<br>
                 Designed in Html, CSS, JavaScript, and Bootstrap5; built on GitHub.<br>
                 Thanks to <a href="https://swallows.cc/" target="_blank" style="color: wheat;">swallows</a> for providing domain name.
             </p>
