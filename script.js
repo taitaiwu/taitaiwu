@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function ()
 });
 
 //大語言模型
-let key = "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"
+let key = "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"
 
 async function groqChat(q) {
     const jsonResponse = await fetch("https://api.groq.com/openai/v1/chat/completions", {

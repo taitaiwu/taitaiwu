@@ -260,6 +260,18 @@ a:hover
     z-index: 2;
 }
 
+.display h2 
+{
+    position: absolute;
+    top: 20%;
+    opacity: 0;
+    transition: opacity 0.8s 0.8s;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    z-index: 2;
+}
+
 #microsoft
 {
     font-size: 50px;
@@ -284,6 +296,12 @@ a:hover
 }
 
 .display > div:hover h1, .display > div:hover p 
+{
+    opacity: 1; /* 滑鼠懸停時顯示文字 */
+    transition: opacity 0.8s 1.5s;
+}
+
+.display > div:hover h2, .display > div:hover p 
 {
     opacity: 1; /* 滑鼠懸停時顯示文字 */
     transition: opacity 0.8s 1.5s;
