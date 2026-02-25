@@ -11,8 +11,8 @@
 
 - 📫 How to reach me...
   > - E-mail : s919075@stu.chsc.tw / s111210520@student.nqu.edu.tw / s1254059@mail.ncue.edu.tw<br>
-  > - GitHub : https://github.com/taitaiwu/taitaiwu
-  > - Website: https://tai.swallows.cc
+  > - GitHub : https://github.com/taitaiwu/
+  > - Website: https://taitaiwu.github.io/taitaiwu/
 
 
 
